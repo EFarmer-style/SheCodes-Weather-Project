@@ -1,0 +1,101 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+}
+
+header p {
+  margin: 30px;
+  top: 20px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 45px;
+}
+
+#current-city-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px 1em;
+}
+.btn-secondary {
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border: 0.1em solid #000203;
+  color: #020000;
+  background-color: #7054b3;
+  transition: all 0.2s;
+  display: block;
+}
+.btn-secondary:hover {
+  background-color: #5fc7f7;
+  border: 0.1em solid #000000;
+}
+#current-location-button {
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border: 0.1em solid #00030f;
+  background-color: #c879e7;
+  display: block;
+}
+
+#current-location-button:hover {
+  background-color: #5fc7f7;
+  border: 0.1em solid #000000;
+}
+#condition-box {
+  display: grid;
+}
+
+i {
+  padding-top: 5px;
+  padding-bottom: 12px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.current-city {
+  padding-top: 5px;
+  padding-bottom: 12px;
+  border-radius: 25px;
+}
+
+.current-conditions {
+  margin-top: 32px;
+  border-radius: 25px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+header,
+h1,
+.city-search,
+.conditions,
+.card-body,
+.predictions h5 {
+  text-align: center;
+  padding: 10px;
+}
+
+.conditions,
+.wind,
+.humidity,
+.precipitation {
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+
+.day1,
+.day2,
+.day3,
+.day4,
+.day5,
+.daily-high {
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
